@@ -1,0 +1,66 @@
+.home {
+  main {
+    // height: 100vh;
+    // background: rgb(255, 255, 255);
+    // background: linear-gradient(
+    //   158deg,
+    //   rgba(255, 255, 255, 1) 0%,
+    //   rgba(255, 255, 255, 1) 27%,
+    //   rgba(255, 255, 212, 1) 55%,
+    //   rgba(254, 240, 138, 1) 100%
+    // );
+
+
+    // .mainImg{
+    //     filter: drop-shadow(rgb(255, 255, 0) 4px 4px 10px);
+    // }
+
+    .trendzeetxt{
+      text-shadow: rgb(255, 230, 0) 2px 2px 10px;
+    }
+    // .gridArea{
+    //     display: grid;
+    //     grid-template-areas: g1 g1 g2 g3 g3;
+    // }
+
+    // .g1{
+    //     grid-area: g1;
+    // }
+    // .g2{
+    //     grid-area: g2;
+    // }
+    // .g3{
+    //     grid-area: g3;
+    // }
+
+    
+  }
+  .homeproducts{
+    .card{
+      width: 300px;
+      height: 250px;
+      // background-color: rgb(245, 247, 150);
+      margin: 20px auto;
+      border-radius: 30px;
+      transition: .5s;
+      box-shadow: rgb(255, 230, 0) 1px 1px 10px;
+
+      .cardImg{
+        width: 200px;
+        margin: auto;
+        
+      }
+      p{
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: .5px;
+      }
+
+      &:hover{
+        background-color: rgb(245, 247, 150);
+        box-shadow: yellow 2px 2px 10px;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
