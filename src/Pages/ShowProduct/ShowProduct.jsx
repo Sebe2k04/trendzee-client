@@ -15,7 +15,7 @@ const ShowProduct = () => {
   }, []);
 
   const getProductData = async () => {
-    const res = await axios.get(`http://localhost:5555/product/${id}`, {
+    const res = await axios.get(`https://trendzee-server.vercel.app/product/${id}`, {
       headers: {
         "Content-Type": "application/json",
       },
@@ -50,7 +50,7 @@ const ShowProduct = () => {
                 <div className="md:grid grid-cols-2">
                   <div className="">
                     <img
-                      src={`http://localhost:5555/uploads/${el.imgpath}`}
+                      src={`https://trendzee-server.vercel.app/uploads/${el.imgpath}`}
                       alt=""
                       className="w-[500px]  m-auto p-5"
                     />

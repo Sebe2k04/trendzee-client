@@ -15,7 +15,8 @@ const ProductCategory = () => {
   }, []);
 
   const getProductData = async () => {
-    const res = await axios.get(`http://localhost:5555/products/${category}`, {
+    //`http://localhost:5555/products/${category}`
+    const res = await axios.get(`https://trendzee-server.vercel.app/products/${category}`, {
       headers: {
         "Content-Type": "application/json",
       },

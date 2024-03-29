@@ -13,7 +13,8 @@ const OfferZone = () => {
   }, []);
 
   const getProductData = async () => {
-    const res = await axios.get("http://localhost:5555/offerzone", {
+    //const res = await axios.get("http://localhost:5555/offerzone", {
+    const res = await axios.get("https://trendzee-server.vercel.app/offerzone", {
       headers: {
         "Content-Type": "application/json",
       },

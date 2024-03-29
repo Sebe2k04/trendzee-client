@@ -74,7 +74,8 @@ const Admin = () => {
       }
     }
 
-    const res = await axios.post("http://localhost:5555/register",formData,config)
+    //const res = await axios.post("http://localhost:5555/register",formData,config)
+    const res = await axios.post("https://trendzee-server.vercel.app/register",formData,config)
 
      if(res.data.status === 401 || !res.data){
        console.log("error")

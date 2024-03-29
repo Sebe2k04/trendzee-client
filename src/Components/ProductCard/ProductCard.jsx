@@ -3,7 +3,7 @@ import { Link, Navigate } from "react-router-dom";
 const ProductCard = ({data}) => {
   return (
     <div className="md:grid md:grid-cols-2 lg:grid-cols-4 ">
-      {data.length > 0
+      {data
         ? data.map((el) => {
             return (
               <Link key={el._id} to={`/product/${el._id}`}>
@@ -13,7 +13,8 @@ const ProductCard = ({data}) => {
               >
                 <div className="mb-5">
                   <img
-                    src={`http://localhost:5555/uploads/${el.imgpath}`}
+                    //src={`http://localhost:5555/uploads/${el.imgpath}`}
+                    src={`https://trendzee-server.vercel.app/uploads/${el.imgpath}`}
                     alt=""
                     className="w-[200px] max-h-[200px] m-auto p-5"
                   />
