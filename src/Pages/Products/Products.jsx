@@ -20,7 +20,7 @@ const Products = () => {
   }, []);
 
   const getProductData = async () => {
-    const res = await axios.get("`https://trendzee-server.vercel.app/products", {
+    const res = await axios.get("https://trendzee-server.onrender.com/products", {
       headers: {
         "Content-Type": "application/json",
       },
