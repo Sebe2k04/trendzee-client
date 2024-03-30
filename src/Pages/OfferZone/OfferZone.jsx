@@ -37,7 +37,7 @@ const OfferZone = () => {
           </h1>
         </div>
         <div className="flex justify-center">
-          <div className="md:grid md:grid-cols-2 lg:grid-cols-4 ">
+          <div className=" ">
             <ProductCard data={data} />
           </div>
         </div>
