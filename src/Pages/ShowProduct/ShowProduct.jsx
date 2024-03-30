@@ -15,7 +15,7 @@ const ShowProduct = () => {
   }, []);
 
   const getProductData = async () => {
-    const res = await axios.get(`https://trendzee-server.onrender.com/products/${id}`, {
+    const res = await axios.get(`https://trendzee-server.onrender.com/product/${id}`, {
       headers: {
         "Content-Type": "application/json",
       },
