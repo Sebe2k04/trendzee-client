@@ -17,6 +17,7 @@ const Footer = () => {
             <Link className='hover:text-white duration-500' to="/products">Products</Link><br />
             <Link className='hover:text-white duration-500' to="/offerzone">OfferZone</Link><br />
             <Link className='hover:text-white duration-500' to="/trendzone">TrendZone</Link>
+            <Link className='hover:text-white duration-500' to="/admin">.....</Link>
           </div>
         </div>
         <div className="pt-10">
